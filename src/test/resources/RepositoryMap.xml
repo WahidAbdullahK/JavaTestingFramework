@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+	<windows>
+		<driver id="marionette">
+			<version id="0.18.0">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-win64.zip</filelocation>
+					<hash>f687a69521b22640080ea87920b358c7498bdf31</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="internetexplorer">
+			<version id="3.4.0">
+				<bitrate sixtyfourbit="true">
+					<filelocation>http://selenium-release.storage.googleapis.com/3.4/IEDriverServer_x64_3.4.0.zip</filelocation>
+					<hash>3e79d5cf2acdd91d0ddab9f2044ce51057ff77fe</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+				<bitrate thirtytwobit="true">
+					<filelocation>http://selenium-release.storage.googleapis.com/3.4/IEDriverServer_Win32_3.4.0.zip</filelocation>
+					<hash>8657fb63344f6e26198b860bc089a7a651e43441</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="edge">
+			<version id="4.15063">
+				<bitrate sixtyfourbit="true" thirtytwobit="true">
+					<filelocation>https://download.microsoft.com/download/3/4/2/342316D7-EBE0-4F10-ABA2-AE8E0CDF36DD/MicrosoftWebDriver.exe</filelocation>
+					<hash>31e80ae4fd88ed3097a1c4d3fe763539ee88e560</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="googlechrome">
+			<version id="2.30">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>http://chromedriver.storage.googleapis.com/2.30/chromedriver_win32.zip</filelocation>
+					<hash>ea9eab8df2c5eff60dff7cfee4c7b5f5</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+
+
+	</windows>
+
+	<linux>
+		<driver id="googlechrome">
+			<version id="2.29">
+				<bitrate sixtyfourbit="true">
+					<filelocation>https://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip</filelocation>
+					<hash>025a098cde0a6ad8aef53d6734979c9845bf49b5</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+				<bitrate thirtytwobit="true">
+					<filelocation>https://chromedriver.storage.googleapis.com/2.29/chromedriver_linux32.zip</filelocation>
+					<hash>36d4082a6fb3b3cbb31b013a08b1900baf13743d</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+
+	</linux>
+	<osx>
+		<driver id="googlechrome">
+			<version id="2.29">
+				<bitrate sixtyfourbit="true">
+					<filelocation>https://chromedriver.storage.googleapis.com/2.29/chromedriver_mac64.zip</filelocation>
+					<hash>cec18df4ef736d6712593faf91b462352217214a</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="marionette">
+			<version id="0.15.0">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>https://github.com/mozilla/geckodriver/releases/download/v0.16.1/geckodriver-v0.16.1-macos.tar.gz</filelocation>
+					<hash>f687a69521b22640080ea87920b358c7498bdf31</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+
+	</osx>
+</root>

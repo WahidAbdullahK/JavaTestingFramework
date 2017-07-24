@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FrameworkSuite" parallel="classes" thread-count="10" verbose="6">
+	<test name="Google">
+		<classes>
+			<class name="com.google.tests.HomeWD" />
+			<class name="com.google.tests.GoogleSearchDataProvider" />
+		</classes>
+	</test>
+</suite>
